@@ -1,0 +1,203 @@
+{
+    "id": 1,
+    "personal_details": {
+        "first_name": "Mohammad",
+        "last_name": "Asif",
+        "phone": 9161807416,
+        "email": "mohdasif.dev@gmail.com",
+        "address": "Greater Noida, India",
+        "about_me": "Passionate and dedicated computer science graduate with a strong foundation in frontend and backend technologies. Adept at building responsive web applications with a focus on use experience. Skilled in Javascript(ES6+), ReactJs, Problem Solving and various other tools to deliver efficient and user-friendly solutions. Eager to contribute to innovative projects and enhance my skills in a collaborative environment."
+    },
+    "academics": [
+        {
+            "id": 1,
+            "university": "Galgotias Univeristy",
+            "branch": "Master of Computer Application",
+            "address": "Greater Noida, India",
+            "session": "July 2022 - July 2024",
+            "grade": "8.5",
+            "image_url": "https://media.licdn.com/dms/image/C510BAQFLsEc8TmdHyA/company-logo_100_100/0/1578668223024?e=1701302400&v=beta&t=jH3Hp3IWi2EBcPpQ5iuJvbgMp--ai-udG4LC4dwhzw8"
+        },
+        {
+            "id": 2,
+            "university": "Integral University",
+            "branch": "Bachelor of Computer Application",
+            "address": "Lucknow, India",
+            "session": "July 2019 - July 2022",
+            "grade": "9.5",
+            "image_url": "https://media.licdn.com/dms/image/C4D0BAQFZj-PsjJ_HBQ/company-logo_100_100/0/1605688521925?e=1701302400&v=beta&t=VLk8ULgrWH11wKw465X0csUxUvxozx7W7pioEadccr4"
+        },
+        {
+            "id": 3,
+            "university": "Delhi Public Convent School",
+            "branch": "Intermediate",
+            "address": "Ballia, India",
+            "session": "July 2016 - July 2018",
+            "grade": "60",
+            "image_url": ""
+        },
+        {
+            "id": 4,
+            "university": "Delhi Public Convent School",
+            "branch": "High School",
+            "address": "Ballia, India",
+            "session": "July 2014 - July 2016",
+            "grade": "8.8",
+            "image_url": ""
+        }
+    ],
+    "skills": {
+        "id": 5,
+        "languages": [
+            "Javascript (ES6+)",
+            "Python",
+            "Typescript"
+        ],
+        "frontend": [
+            "React.js",
+            "Redux/Redux-Toolkit",
+            "TailwindCss",
+            "Html",
+            "Css",
+            "React Router",
+            "Web Sockets",
+            "Jwt",
+            "React Native (Expo)",
+            "Third Party Api Integration",
+            "Responsive Web Design",
+            "Performance Optimization",
+            "Webpack",
+            "React Testing Library",
+            "Jest"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "Django"
+        ],
+        "database": [
+            "Mysql",
+            "Mongodb",
+            "Firebase"
+        ],
+        "others": [
+            "Git and Github",
+            "Github Actions",
+            "Docker",
+            "Vscode",
+            "DigitalOcean"
+        ]
+    },
+    "social_links": {
+        "id": 6,
+        "portfolio": "https://geekyasif.github.io/",
+        "github": "https://github.com/geekyasif",
+        "geeksforgeek": "https://auth.geeksforgeeks.org/user/mohdas59pd",
+        "hackerrank": "https://www.hackerrank.com/geekyasif",
+        "leetcode": "https://leetcode.com/geekyasif/",
+        "big_frontend_developer": "https://bigfrontend.dev/user/geekyasif",
+        "blog": "https://codeupon.wordpress.com/"
+    },
+    "achievements": [
+        {
+            "id": 7,
+            "title": "ICCSAI - International Research Conference Website",
+            "description": "Currently improving Galgotias University Int'l Research Conference site. Collaborated with faculty to create efficient, secure, and responsive pages. Additionally, my name is prominently listed on the website's student committee section."
+        },
+        {
+            "id": 8,
+            "title": "IUL FORUM - Note App for Students",
+            "description": "Individually developed Django-based IUL Forum. Enabled 100+ students to easily access notes with optimized performance."
+        },
+        {
+            "id": 9,
+            "title": "BCA NOTES - Mobile App for Academics",
+            "description": "Crafted Flutter-Firebase app for BCA Notes. Securely delivers timetables, notes, and notifications with top performance."
+        }
+    ],
+    "certifications": [
+        {
+            "id": 10,
+            "title": "AWS Academy Graduate - AWS Academy Cloud Architecting",
+            "organization": "Amazon Web Services (AWS)",
+            "date_issued": "Jul 2023",
+            "credential": "2D066326B8C9-2D065D2231CD-2D065CF3CB49"
+        },
+        {
+            "id": 11,
+            "title": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+            "organization": "Amazon Web Services (AWS)",
+            "date_issued": "May 2023",
+            "credential": "2D066326B8C9-2D065D2231CD-2D065CF3CB49"
+        },
+        {
+            "id": 12,
+            "title": "Docker Training Course for the Absolute Beginner",
+            "organization": "KodeKloud",
+            "date_issued": "Feb 2023",
+            "credential": "2D066326B8C9-2D065D2231CD-2D065CF3CB49"
+        },
+        {
+            "id": 13,
+            "title": "Crash Course on Python",
+            "organization": "Coursera",
+            "date_issued": "Feb 2021",
+            "credential": "2D066326B8C9-2D065D2231CD-2D065CF3CB49"
+        }
+    ],
+    "experience": [
+        {
+            "id": 14,
+            "role": "Software Developer",
+            "company": "Arivani Technologies Pvt. Ltd.",
+            "employment_type": "Full-time",
+            "duration": "Jan 2022 - Jul 2022",
+            "location": "Lucknow, Uttar Pradesh, India",
+            "image_url": "https://media.licdn.com/dms/image/C510BAQHu5SdkXsIcqA/company-logo_100_100/0/1560513644693?e=1701302400&v=beta&t=Uv61n2laMRb_XqLcc-DkuJvAj37te8YoggJccSUB0og",
+            "responsibilities": [
+                "Developed a Django web app with authentication, authorization, and schema.",
+                "Integrated a scheduler using Django Celery and Celery Beat for automated email sending.",
+                "Deployed the app on AWS Lightsail, demonstrating server deployment expertise.",
+                "Proficient in Django, backend logic implementation, and data processing.",
+                "Created a React Native CRM app for iOS and Android.",
+                "Integrated API from Laravel and Angular CRM websites.",
+                "Managed state effectively using Context API for seamless data handling.",
+                "Implemented authentication and authorization features.",
+                "Skilled in React Native, Context API, and UI libraries like UIKit, React Native Elements, and NativeBase."
+            ],
+            "skills": [
+                "Software Development",
+                "Virtual Private Server (VPS)",
+                "JavaScript",
+                "Python (Programming Language)",
+                "Django",
+                "React.js",
+                "React Native",
+                "GitHub"
+            ]
+        },
+        {
+            "id": 15,
+            "role": "Web Development Intern",
+            "company": "Vconstruct Home",
+            "employment_type": "Internship",
+            "duration": "Oct 2021 - Dec 2021",
+            "location": "Lucknow, Uttar Pradesh, India",
+            "image_url": "",
+            "responsibilities": [
+                "Developed APIs using CodeIgniter framework.",
+                "Proficient in SQL for basic database operations and query execution.",
+                "Built a basic dashboard using ReactJS and Bootstrap.",
+                "Implemented efficient routing with React Router.",
+                "Successfully integrated backend APIs developed in CodeIgniter with ReactJS frontend."
+            ],
+            "skills": [
+                "React.js",
+                "CodeIgniter",
+                "PHP",
+                "Bootstrap",
+                "GitHub"
+            ]
+        }
+    ]
+}
