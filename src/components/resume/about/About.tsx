@@ -1,19 +1,16 @@
 import React from "react";
 import Heading from "../Heading";
+import { useUser } from "../../../context/UserProvider";
 
 function About() {
+  const {user} = useUser()
   return (
     <div className="my-8">
       <Heading title="About me" position="text-center" />
       <div className="p-8 bg-gray-50 rounded-lg">
-        <p className="text-base md:text-lg lg:text-lg font-semi  leading-8">
-          Passionate Software Engineer | Versatile MERN Developer | Embracing
-          Innovation and Precision in Web Development | Skilled in JavaScript,
-          React.Js, Python | Committed to Continuous Learning and Collaborative
-          Excellence.
-        </p>
+        <p className="text-base md:text-lg lg:text-lg font-semi  leading-8">{user?.personal_details.about_me}</p>
         <p className="text-base md:text-lg lg:text-lg font-semi  my-6 leading-8">
-          <b>MERN Development :</b>
+          <b>Skills :</b>
           <ul>
             <li>Proficient in <b>ReactJS</b>, and <b>NodeJS</b>, <b>ExpressJS</b>, <b>MongoDB</b></li>
             <li>

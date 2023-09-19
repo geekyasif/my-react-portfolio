@@ -1,8 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProfileInfo from "./ProfileInfo";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { useUser } from "../../../context/UserProvider";
 
 function Profile() {
+  const { user } = useUser();
+
   return (
     <div className="md:mx-8 lg:mx-8">
       <div className="flex flex-wrap">
@@ -15,7 +18,8 @@ function Profile() {
         <div className="mt-2 md:mt-[15px] lg:mt-[15px] mx-6">
           <div className="flex items-center">
             <h1 className="text-base md:text-2xl lg:text-4xl font-bold">
-              Mohammad Asif
+              {user?.personal_details.first_name}{" "}
+              {user?.personal_details.last_name}
             </h1>
             <p className="p-1 text-xs md:px-4 lg:px-4 md:py-1 font-medium md:text-sm lg:text-sm bg-green-400 rounded mx-4">
               Pro
@@ -30,7 +34,7 @@ function Profile() {
             </h4>
             <h4 className="text-xs md:text-lg lg:text-lg my-2 text-gray-400">
               <FontAwesomeIcon icon={faLocationDot} className="mr-2" />
-              Greater Noida, India
+              {user?.personal_details.address}
             </h4>
           </div>
         </div>

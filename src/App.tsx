@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navigation from "./components/portfolio/navigation/Navigation";
+import UserProvider, { useUser } from "./context/UserProvider";
 
 function App() {
+
   return (
-   <>
-   <Navigation/>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      {/* <Route path="users/*" element={<Users />} /> */}
-    </Routes>
-   </>
+    <>
+      <UserProvider>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="users/*" element={<Users />} /> */}
+        </Routes>
+      </UserProvider>
+    </>
   );
 }
 

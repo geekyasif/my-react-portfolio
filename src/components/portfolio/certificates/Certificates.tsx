@@ -7,7 +7,7 @@ function Certificates() {
       <Heading title="Certificates" buttonText="Add new certificate" />
       <div className=" flex justify-between flex-wrap">
         <CertificateCard
-          title="Advanced theoretical Javascript"
+          title="Web Development"
           imageUrl="https://cdn-icons-png.flaticon.com/512/888/888859.png?w=826&t=st=1689113641~exp=1689114241~hmac=42c44d2eaad744f8395528df699572b433bd107c4b72a52ca5791d19a953a7b7"
           date="Issued on Dec 16th, 2022"
           credentials=""
@@ -25,7 +25,7 @@ function Certificates() {
           credentials=""
         />
         <CertificateCard
-          title="Fontend master javacript"
+          title="Javacript - Frontend Master"
           imageUrl="https://cdn-icons-png.flaticon.com/512/376/376244.png?w=826&t=st=1689113986~exp=1689114586~hmac=ef39596eb58e3de7bb37898c878dcacc3ce1df9a8f7a8f0095cc7656679bf56e"
           date="Issued on Dec 16th, 2022"
           credentials=""
