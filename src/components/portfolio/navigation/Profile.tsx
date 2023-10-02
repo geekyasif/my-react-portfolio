@@ -12,7 +12,7 @@ function Profile() {
         <FontAwesomeIcon icon={faBell} />
       </div>
       <div className="">
-        <img src="pro.jpeg" className="h-[42px] w-[42px] rounded-full"/>
+        <img alt="img" src="pro.png" className="h-[42px] w-[42px] rounded-full"/>
       </div>
     </div>
   );

@@ -2,8 +2,7 @@ import React from "react";
 import { IExperience } from "../../../typescript/UserInterfaces";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBuilding,
-  faBuildingCircleCheck,
+  faBuilding
 } from "@fortawesome/free-solid-svg-icons";
 
 function Card({
@@ -23,7 +22,9 @@ function Card({
       className="flex flex-wrap p-4 rounded-lg bg-gray-50 items-start my-2 mb-4"
     >
       <div className="md:w-[15%] lg:w-[8%] pl-2 md:pt-3 lg:pl-0">
-        {image_url && <img src={image_url} className="w-[80px]" />}
+        {image_url && (
+          <img src={image_url} className="w-[80px]" alt={company} />
+        )}
         {!image_url && (
           <FontAwesomeIcon
             icon={faBuilding}

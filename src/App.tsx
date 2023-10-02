@@ -1,8 +1,8 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navigation from "./components/portfolio/navigation/Navigation";
-import UserProvider, { useUser } from "./context/UserProvider";
+import UserProvider from "./context/UserProvider";
 
 function App() {
 

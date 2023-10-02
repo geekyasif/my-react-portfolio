@@ -16,8 +16,9 @@ function ProjectCard({
   liveUrl,
 }: IProjectCardProps) {
   return (
-    <div className="w-[100%] md:w-[49%] lg:w-[49%] border p-4 rounded-md  my-2 bg-gray-50">
+    <div className="w-[100%] max-w md:w-[49%] lg:w-[49%] border p-4 rounded-md  my-2 bg-gray-50">
       <img
+        alt="img"
         src={imageUrl}
         className="rounded-md w-[100%] md:h-[200px] lg:h-[400px]"
       />
@@ -29,6 +30,7 @@ function ProjectCard({
       </div>
       <div className="mt-2">
         <a
+          rel="noreferrer"
           href={codeUrl}
           target="_blank"
           className="bg-indigo-500 text-white p-1 px-2 rounded mr-2 text-sm"
@@ -36,6 +38,7 @@ function ProjectCard({
           Source Code
         </a>
         <a
+          rel="noreferrer"
           href={liveUrl}
           target="_blank"
           className="bg-indigo-500 text-white p-1 px-2 rounded text-sm"

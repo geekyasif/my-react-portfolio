@@ -5,7 +5,7 @@ function Certificates() {
   return (
     <div>
       <Heading title="Certificates" buttonText="Add new certificate" />
-      <div className=" flex justify-between flex-wrap">
+      <div className="flex justify-between flex-wrap gap-1">
         <CertificateCard
           title="Web Development"
           imageUrl="https://cdn-icons-png.flaticon.com/512/888/888859.png?w=826&t=st=1689113641~exp=1689114241~hmac=42c44d2eaad744f8395528df699572b433bd107c4b72a52ca5791d19a953a7b7"

@@ -10,8 +10,8 @@ function Profile() {
     <div className="md:mx-8 lg:mx-8">
       <div className="flex flex-wrap">
         <div className="mt-[-40px] ml-[10px] md:mt-[-40px] lg:mt-[-90px] rounded-full bg-white p-[2px] md:w-[18%] lg:w-[180px]">
-          <img
-            src="pro.jpeg"
+          <img alt="img"
+            src="pro.png"
             className="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full"
           />
         </div>

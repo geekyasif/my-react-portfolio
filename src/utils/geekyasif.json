@@ -147,6 +147,17 @@
     ],
     "experience": [
         {
+            "id": 16,
+            "role": "Full Stack Software Developer Intern",
+            "company": "Leadmint Technologies Pvt. Ltd.",
+            "employment_type": "Internship",
+            "duration": "Sept 2023 - Present",
+            "location": "Noida, Uttar Pradesh, India",
+            "image_url": "https://media.licdn.com/dms/image/D4D0BAQGOC_PWErUmLQ/company-logo_100_100/0/1692183562016?e=1704326400&v=beta&t=XplFerjWUO2PeGcb4cNTkzaWs5tkY0k5tHgnX9d-eTs",
+            "responsibilities": [],
+            "skills": []
+        },
+        {
             "id": 14,
             "role": "Software Developer",
             "company": "Arivani Technologies Pvt. Ltd.",

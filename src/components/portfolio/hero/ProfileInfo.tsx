@@ -47,23 +47,23 @@ function ProfileInfo() {
           <div className="flex flex-wrap">
             <SocialIcon
               imageUrl="gmail.png"
-              socialUrl="www.github.com/geekyasif"
+              socialUrl="mailto:mohdasif.dev@gmail.com"
             />
             <SocialIcon
               imageUrl="github.png"
-              socialUrl="www.github.com/geekyasif"
+              socialUrl="https://www.github.com/geekyasif"
             />
             <SocialIcon
               imageUrl="linkedin.png"
-              socialUrl="www.github.com/geekyasif"
+              socialUrl="https://www.linkedin.com/in/mohdasif10/"
             />
             <SocialIcon
               imageUrl="youtube.png"
-              socialUrl="www.github.com/geekyasif"
+              socialUrl="https://www.github.com/geekyasif"
             />
             <SocialIcon
               imageUrl="twitter.png"
-              socialUrl="www.github.com/geekyasif"
+              socialUrl="https://www.github.com/geekyasif"
             />
           </div>
           <div className="flex items-center mb-3 md:mt-0 lg:mt-0">
