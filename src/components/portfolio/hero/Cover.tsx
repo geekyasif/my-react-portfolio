@@ -6,7 +6,7 @@ function Cover() {
       <img
         alt="img"
         src="cover.png"
-        className="h-[180px] md:h-[300px] lg:h-[400px] w-[100%] rounded-tl-xl rounded-tr-xl"
+        className="h-[180px] md:h-[300px] lg:h-[400px] w-[100%] rounded-tl-xl rounded-tr-xl object-fit"
       />
     </div>
   );

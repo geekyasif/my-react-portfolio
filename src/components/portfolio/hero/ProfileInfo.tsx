@@ -8,30 +8,24 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SkillTag from "../../SkillTag";
 import SocialIcon from "./SocialIcon";
-import { useUser } from "../../../context/UserProvider";
-
 export const skills = [
   "Javascript",
+  "Typescript",
   "React.js",
   "Next.js",
-  "Webpack",
   "Jest",
-  "React Native",
+  "TailwindCss",
   "Node.js",
   "Express.js",
   "MongoDb",
   "Sql",
   "REST API's",
-  "Python",
   "Firebase",
-  "TailwindCss",
-  "HTML 5",
-  "CSS 3",
+  "Python",
+  "Git Flow",
 ];
 
 function ProfileInfo() {
-  const { user } = useUser();
-
   return (
     <div className="mx-6 md:m-6 lg:m-6 flex">
       <div className="w-[0%] md:w-[20%] lg:w-[20%] "></div>
