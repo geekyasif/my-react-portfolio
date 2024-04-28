@@ -146,7 +146,7 @@
         }
     ],
     "experience": [
-                {
+        {
             "id": 17,
             "role": "Jr. Full Stack Software Developer",
             "company": "Lifease Solutions Llp",
@@ -159,21 +159,35 @@
                 "To enhance scalability and responsiveness, I developed a customizable, performance-driven component library that is well-documented and ensures ease of use and extension within the company.",
                 "Managed concurrent users with WebSockets for real-time updates and designed robust RBAC and user management modules to ensure secure access control."
             ],
-            "skills": ["Next.Js", "Typescript", "WebSockets", "Git Flow", "Node.Js/Express.Js", "Linux", "TailwindCss"]
+            "skills": [
+                "Next.Js",
+                "Typescript",
+                "WebSockets",
+                "Git Flow",
+                "Node.Js/Express.Js",
+                "Linux",
+                "TailwindCss"
+            ]
         },
         {
             "id": 16,
             "role": "Full Stack Software Developer Intern",
             "company": "Leadmint Technologies Pvt. Ltd.",
             "employment_type": "Internship",
-            "duration": "Sept 2023 - Present",
+            "duration": "Sept 2023 - Dec 2023",
             "location": "Noida, Uttar Pradesh, India",
             "image_url": "https://media.licdn.com/dms/image/D4D0BAQGOC_PWErUmLQ/company-logo_100_100/0/1692183562016?e=1704326400&v=beta&t=XplFerjWUO2PeGcb4cNTkzaWs5tkY0k5tHgnX9d-eTs",
             "responsibilities": [
                 "Successfully implemented server-side rendering using Next.js 13 and API caching, significantly enhancing the website’s initial load time, boosting overall performance, and delivering an improved user experience.",
                 "Following best practices to develop new APIs using Node.js and Express.js within an existing application by creating and optimizing SQL tables and joins."
             ],
-            "skills": ["React.Js", "Next.Js","Typescript", "Node.Js/Express.Js", "TailwindCss"]
+            "skills": [
+                "React.Js",
+                "Next.Js",
+                "Typescript",
+                "Node.Js/Express.Js",
+                "TailwindCss"
+            ]
         },
         {
             "id": 14,
