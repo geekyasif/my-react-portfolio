@@ -27,17 +27,14 @@ export const skills = [
 
 function ProfileInfo() {
   return (
-    <div className="mx-6 md:m-6 lg:m-6 flex">
-      <div className="w-[0%] md:w-[20%] lg:w-[20%] "></div>
-      <div className="w-[100%] md:w-[80%] lg:w-[80%]">
-        <div className="flex flex-wrap my-4">
+    <div className="flex">
+      <div className="">
+        <div className="flex flex-wrap py-2 border-b gap-1 lg:gap-3 md:gap-2">
           {skills.map((s, i) => (
             <SkillTag title={s} key={i} bgColor="bg-gray-100" />
           ))}
         </div>
-        <hr className="my-[30px]" />
-
-        <div className="flex flex-wrap justify-between items-center">
+        <div className="flex flex-wrap justify-between items-center pt-2">
           <div className="flex flex-wrap">
             <SocialIcon
               imageUrl="gmail.png"
@@ -60,15 +57,15 @@ function ProfileInfo() {
               socialUrl="https://www.github.com/geekyasif"
             />
           </div>
-          <div className="flex items-center mb-3 md:mt-0 lg:mt-0">
+          {/* <div className="flex items-center mb-3 md:mt-0 lg:mt-0">
             <FontAwesomeIcon
               icon={faBookBookmark}
               className="border p-3 rounded-lg mr-4 bg-gray-100 text-gray-600"
             />
-            <p className="bg-blue-600 text-white p-2 px-4 font-medium rounded-md">
+            <p className="bg-blue-600 text-white p-2 px-4 font-medium rounded-md md:text-sm text-xs lg:text-base">
               Contact
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

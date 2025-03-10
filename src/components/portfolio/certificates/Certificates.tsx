@@ -4,7 +4,7 @@ import CertificateCard from "./CertificateCard";
 function Certificates() {
   return (
     <div>
-      <Heading title="Certificates" buttonText="Add new certificate" />
+      <Heading title="Certificates" buttonText="" />
       <div className="flex justify-between flex-wrap gap-1">
         <CertificateCard
           title="Web Development"

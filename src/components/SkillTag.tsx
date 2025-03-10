@@ -10,7 +10,7 @@ function SkillTag({ title, key, bgColor }: ISkillTagParams) {
   return (
     <p
       key={key}
-      className={`px-3 p-2 mr-4 rounded-md text-xs md:text-sm lg:text-sm  font-semi my-1 ${bgColor}`}
+      className={`p-1 px-3 rounded-md lg:text-xs md:text-xs text-[9px] font-medium ${bgColor}`}
     >
       {title}
     </p>

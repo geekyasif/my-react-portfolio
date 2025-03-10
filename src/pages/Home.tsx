@@ -1,30 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Hero from "../components/portfolio/hero/Hero";
-import Tabs from "../components/tabs/Tabs";
 import Portfolio from "../components/portfolio/Portfolio";
-import Resume from "../components/resume/Resume";
 import { useUser } from "../context/UserProvider";
+import { fetchProfile } from "../services";
 
 function Home() {
-  const {setUser} = useUser()
-  const [activeTab, setActiveTab] = useState<string>("portfolio");
+  const { setUser } = useUser();
 
-  async function fetchUserData(){
-    const res = await fetch("https://raw.githubusercontent.com/geekyasif/my-react-portfolio/main/src/utils/geekyasif.json")
-    const _data = await res.json()
-    setUser(_data)
+  async function fetchUserData() {
+    const data: any = await fetchProfile();
+    setUser(data);
   }
 
   useEffect(() => {
-      fetchUserData()
-  },[])
-
+    fetchUserData();
+  }, []);
 
   return (
-    <div className="container mx-auto my-8 p-2">
+    <div className="max-w-7xl mx-auto pb-8 pt-6 p-2">
       <Hero />
-      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
-      {activeTab === "portfolio" ? <Portfolio /> : <Resume />}
+      <Portfolio />
     </div>
   );
 }

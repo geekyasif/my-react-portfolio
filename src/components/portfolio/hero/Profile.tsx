@@ -8,36 +8,36 @@ function Profile() {
 
   return (
     <div className="md:mx-8 lg:mx-8">
-      <div className="flex flex-wrap">
-        <div className="mt-[-40px] ml-[10px] md:mt-[-40px] lg:mt-[-90px] rounded-full bg-white p-[2px] md:w-[18%] lg:w-[180px]">
+      <div className="flex">
+        <div className="w-[30%] md:w-[20%] lg:w-[20%] relative">
           <img
             alt="img"
             src="pro.png"
-            className="w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full object-contain"
+            className="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[180px] lg:h-[180px] object-fill rounded-full absolute -top-8 lg:-top-20 md:-top-10 md:-left-3 left-2 lg:left-0"
           />
         </div>
-        <div className="mt-2 md:mt-[15px] lg:mt-[15px] mx-6">
+        <div className="py-3 w-[70%] md:w-[80%] lg:w-[80%]">
           <div className="flex items-center">
-            <h1 className="text-base md:text-2xl lg:text-4xl font-bold pr-2">
+            <h1 className="text-lg md:text-xl lg:text-4xl font-bold pr-2">
               {user?.personal_details.first_name}{" "}
               {user?.personal_details.last_name}
             </h1>
-            <p className="p-1 text-xs md:px-4 lg:px-4 font-medium md:text-sm lg:text-sm bg-blue-200 rounded text-blue-800">
+            <p className="p-1 text-[9px] md:px-2 lg:px-4 font-medium md:text-[10px] lg:text-sm bg-blue-200 rounded text-blue-800">
               Looking for job
             </p>
           </div>
           <div>
-            <h4 className="text-xs md:text-lg lg:text-lg my-2 text-gray-500">
-              Full Stack Developer @Lifease Solutions LLP
+            <h4 className="text-xs md:text-sm lg:text-lg my-2 text-gray-500">
+              Full Stack Engineer | Ex - Lifease Solutions LLP
             </h4>
-            <h4 className="text-xs md:text-lg lg:text-lg my-2 text-gray-400">
+            <h4 className="text-xs md:text-sm lg:text-lg my-2 text-gray-400">
               <FontAwesomeIcon icon={faLocationDot} className="mr-2" />
               {user?.personal_details.address}
             </h4>
           </div>
+          <ProfileInfo />
         </div>
       </div>
-      <ProfileInfo />
     </div>
   );
 }
