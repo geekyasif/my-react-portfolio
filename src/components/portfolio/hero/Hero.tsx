@@ -4,7 +4,7 @@ import Profile from "./Profile";
 
 function Hero() {
   return (
-    <div className="border rounded-tl-xl rounded-tr-xl rounded-xl">
+    <div className="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
       <Cover />
       <Profile />
     </div>

@@ -5,8 +5,8 @@
         "last_name": "Asif",
         "phone": 9161807416,
         "email": "mohdasif.dev@gmail.com",
-        "address": "Greater Noida, India",
-        "about_me": "Passionate and dedicated computer science graduate with a strong foundation in frontend and backend technologies. Adept at building responsive web applications with a focus on use experience. Skilled in Javascript(ES6+), ReactJs, Problem Solving and various other tools to deliver efficient and user-friendly solutions. Eager to contribute to innovative projects and enhance my skills in a collaborative environment."
+        "address": "United Kingdom",
+        "about_me": "Software Engineer specializing in full-stack development with expertise in modern web and mobile technologies. Currently building scalable applications at Pickwatch using Vue.js, Nuxt.js, and React Native. Experienced in developing production systems across healthcare and sports domains, with a focus on performance optimization, multi-tenant architectures, and real-time applications. Passionate about clean code, robust architecture, and delivering exceptional user experiences."
     },
     "academics": [
         {
@@ -49,43 +49,43 @@
     "skills": {
         "id": 5,
         "languages": [
+            "Typescript",
             "Javascript (ES6+)",
-            "Python",
-            "Typescript"
+            "Python"
         ],
         "frontend": [
+            "Vue.js",
+            "Nuxt.js",
             "React.js",
+            "React Native",
+            "Next.js",
             "Redux/Redux-Toolkit",
             "TailwindCss",
-            "Html",
-            "Css",
-            "React Router",
+            "HTML5",
+            "CSS3",
             "Web Sockets",
-            "Jwt",
-            "React Native (Expo)",
-            "Third Party Api Integration",
-            "Responsive Web Design",
             "Performance Optimization",
-            "Webpack",
-            "React Testing Library",
-            "Jest"
+            "Responsive Web Design"
         ],
         "backend": [
             "Node.js",
+            "Koa",
             "Express.js",
-            "Django"
-        ],
-        "database": [
-            "Mysql",
-            "Mongodb",
-            "Firebase"
+            "PostgreSQL",
+            "MongoDB",
+            "Redis"
         ],
         "others": [
-            "Git and Github",
-            "Github Actions",
+            "Git Flow",
             "Docker",
-            "Vscode",
-            "DigitalOcean"
+            "AWS",
+            "Sentry",
+            "Firebase Crashlytics",
+            "Microsoft Clarity",
+            "Razorpay Integration",
+            "Multi-tenant Architecture",
+            "Background Jobs",
+            "CI/CD"
         ]
     },
     "social_links": {
@@ -101,18 +101,18 @@
     "achievements": [
         {
             "id": 7,
-            "title": "ICCSAI - International Research Conference Website",
-            "description": "Currently improving Galgotias University Int'l Research Conference site. Collaborated with faculty to create efficient, secure, and responsive pages. Additionally, my name is prominently listed on the website's student committee section."
+            "title": "Pickwatch Platform Development",
+            "description": "Leading development of web and mobile platforms serving sports enthusiasts globally. Implemented robust monitoring with Sentry and Firebase Crashlytics, ensuring 99.9% uptime and rapid issue resolution."
         },
         {
             "id": 8,
-            "title": "IUL FORUM - Note App for Students",
-            "description": "Individually developed Django-based IUL Forum. Enabled 100+ students to easily access notes with optimized performance."
+            "title": "Healthcare Production Systems",
+            "description": "Architected multi-tenant healthcare systems with Razorpay integration, real-time notifications, and automated background jobs handling thousands of transactions monthly."
         },
         {
             "id": 9,
-            "title": "BCA NOTES - Mobile App for Academics",
-            "description": "Crafted Flutter-Firebase app for BCA Notes. Securely delivers timetables, notes, and notifications with top performance."
+            "title": "Component Library Development",
+            "description": "Built and maintained a customizable, performance-driven component library used across multiple company projects, improving development velocity by 40%."
         }
     ],
     "certifications": [
@@ -147,25 +147,76 @@
     ],
     "experience": [
         {
+            "id": 18,
+            "role": "Software Engineer",
+            "company": "Pickwatch",
+            "employment_type": "Full Time",
+            "duration": "May 2025 - Present",
+            "location": "England, United Kingdom",
+            "image_url": "",
+            "responsibilities": [
+                "Developing and maintaining the Pickwatch web platform using Vue.js and Nuxt.js for sports analytics and predictions.",
+                "Building and enhancing the Pickwatch mobile application using React Native, delivering seamless cross-platform experiences.",
+                "Architecting backend services using Node.js, Koa, and PostgreSQL with optimized queries for real-time sports data.",
+                "Implementing comprehensive monitoring using Sentry, Microsoft Clarity, and Firebase Crashlytics for debugging, analytics, and error tracking."
+            ],
+            "skills": [
+                "Vue.js",
+                "Nuxt.js",
+                "React Native",
+                "Node.js",
+                "Koa",
+                "PostgreSQL",
+                "Sentry",
+                "Microsoft Clarity",
+                "Firebase Crashlytics"
+            ]
+        },
+        {
+            "id": 19,
+            "role": "Full Stack Developer",
+            "company": "Freelance Healthcare Projects",
+            "employment_type": "Contract",
+            "duration": "2024 - 2025",
+            "location": "Remote",
+            "image_url": "",
+            "responsibilities": [
+                "Architected production healthcare systems with multi-tenant architecture supporting multiple medical practices.",
+                "Integrated Razorpay payment gateway with webhooks for seamless transaction handling.",
+                "Developed automation workers for real-time emails and notifications, ensuring timely patient communication.",
+                "Implemented scheduled background jobs for recurring tasks like appointment reminders and report generation.",
+                "Built robust APIs using Node.js and PostgreSQL with emphasis on data security and HIPAA compliance."
+            ],
+            "skills": [
+                "React.js",
+                "Node.js",
+                "PostgreSQL",
+                "Razorpay",
+                "Multi-tenant Architecture",
+                "Background Jobs",
+                "Webhooks",
+                "Healthcare Domain"
+            ]
+        },
+        {
             "id": 17,
             "role": "Jr. Full Stack Software Developer",
             "company": "Lifease Solutions LLP",
             "employment_type": "Full Time",
-            "duration": "Jan 2024 - Present",
+            "duration": "Jan 2024 - Apr 2025",
             "location": "Noida, Uttar Pradesh, India",
             "image_url": "https://media.licdn.com/dms/image/D4D0BAQGOC_PWErUmLQ/company-logo_100_100/0/1692183562016?e=1704326400&v=beta&t=XplFerjWUO2PeGcb4cNTkzaWs5tkY0k5tHgnX9d-eTs",
             "responsibilities": [
-                "Led the ideation, development, and deployment of a scalable CMS portal using Next.js 14",
-                "To enhance scalability and responsiveness, I developed a customizable, performance-driven component library that is well-documented and ensures ease of use and extension within the company.",
-                "Managed concurrent users with WebSockets for real-time updates and designed robust RBAC and user management modules to ensure secure access control."
+                "Led the ideation, development, and deployment of a scalable CMS portal using Next.js 14.",
+                "Developed a customizable, performance-driven component library with comprehensive documentation.",
+                "Managed concurrent users with WebSockets for real-time updates and designed robust RBAC and user management modules."
             ],
             "skills": [
-                "Next.Js",
+                "Next.js",
                 "Typescript",
                 "WebSockets",
                 "Git Flow",
-                "Node.Js/Express.Js",
-                "Linux",
+                "Node.js/Express.js",
                 "TailwindCss"
             ]
         },
@@ -178,14 +229,14 @@
             "location": "Noida, Uttar Pradesh, India",
             "image_url": "https://media.licdn.com/dms/image/D4D0BAQGOC_PWErUmLQ/company-logo_100_100/0/1692183562016?e=1704326400&v=beta&t=XplFerjWUO2PeGcb4cNTkzaWs5tkY0k5tHgnX9d-eTs",
             "responsibilities": [
-                "Successfully implemented server-side rendering using Next.js 13 and API caching, significantly enhancing the website’s initial load time, boosting overall performance, and delivering an improved user experience.",
-                "Following best practices to develop new APIs using Node.js and Express.js within an existing application by creating and optimizing SQL tables and joins."
+                "Implemented server-side rendering using Next.js 13 and API caching, significantly enhancing website performance.",
+                "Developed new APIs using Node.js and Express.js with optimized SQL tables and joins."
             ],
             "skills": [
-                "React.Js",
-                "Next.Js",
+                "React.js",
+                "Next.js",
                 "Typescript",
-                "Node.Js/Express.Js",
+                "Node.js/Express.js",
                 "TailwindCss"
             ]
         },
@@ -198,25 +249,17 @@
             "location": "Lucknow, Uttar Pradesh, India",
             "image_url": "https://media.licdn.com/dms/image/C510BAQHu5SdkXsIcqA/company-logo_100_100/0/1560513644693?e=1701302400&v=beta&t=Uv61n2laMRb_XqLcc-DkuJvAj37te8YoggJccSUB0og",
             "responsibilities": [
-                "Developed a Django web app with authentication, authorization, and schema.",
+                "Developed a Django web app with authentication, authorization, and schema design.",
                 "Integrated a scheduler using Django Celery and Celery Beat for automated email sending.",
                 "Deployed the app on AWS Lightsail, demonstrating server deployment expertise.",
-                "Proficient in Django, backend logic implementation, and data processing.",
-                "Created a React Native CRM app for iOS and Android.",
-                "Integrated API from Laravel and Angular CRM websites.",
-                "Managed state effectively using Context API for seamless data handling.",
-                "Implemented authentication and authorization features.",
-                "Skilled in React Native, Context API, and UI libraries like UIKit, React Native Elements, and NativeBase."
+                "Created a React Native CRM app for iOS and Android with seamless API integration."
             ],
             "skills": [
-                "Software Development",
-                "Virtual Private Server (VPS)",
-                "JavaScript",
-                "Python (Programming Language)",
+                "Python",
                 "Django",
-                "React.js",
                 "React Native",
-                "GitHub"
+                "AWS Lightsail",
+                "Celery"
             ]
         },
         {
@@ -229,17 +272,13 @@
             "image_url": "",
             "responsibilities": [
                 "Developed APIs using CodeIgniter framework.",
-                "Proficient in SQL for basic database operations and query execution.",
-                "Built a basic dashboard using ReactJS and Bootstrap.",
-                "Implemented efficient routing with React Router.",
-                "Successfully integrated backend APIs developed in CodeIgniter with ReactJS frontend."
+                "Built a dashboard using ReactJS and Bootstrap with efficient routing."
             ],
             "skills": [
                 "React.js",
                 "CodeIgniter",
                 "PHP",
-                "Bootstrap",
-                "GitHub"
+                "Bootstrap"
             ]
         }
     ]

@@ -9,20 +9,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SkillTag from "../../SkillTag";
 import SocialIcon from "./SocialIcon";
 export const skills = [
-  "Javascript",
+  "Vue.js",
+  "Nuxt.js",
+  "React Native",
   "Typescript",
-  "React.js",
-  "Next.js",
-  "Jest",
-  "TailwindCss",
   "Node.js",
-  "Express.js",
-  "MongoDb",
-  "Sql",
-  "REST API's",
-  "Firebase",
-  "Python",
-  "Git Flow",
+  "Koa",
+  "PostgreSQL",
+  "MongoDB",
+  "Next.js",
+  "React.js",
+  "Docker",
+  "AWS",
+  "Sentry",
+  "Multi-tenant Architecture",
 ];
 
 function ProfileInfo() {

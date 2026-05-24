@@ -8,12 +8,12 @@ interface ISkillTagParams {
 
 function SkillTag({ title, key, bgColor }: ISkillTagParams) {
   return (
-    <p
+    <span
       key={key}
-      className={`p-1 px-3 rounded-md lg:text-xs md:text-xs text-[9px] font-medium ${bgColor}`}
+      className={`inline-flex items-center px-3 py-1.5 rounded-lg text-xs md:text-sm font-medium border border-gray-200 bg-white text-gray-700 shadow-sm hover:shadow transition-all duration-200 ${bgColor.includes('bg-') ? bgColor : ''}`}
     >
       {title}
-    </p>
+    </span>
   );
 }
 
