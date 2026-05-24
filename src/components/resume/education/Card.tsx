@@ -1,7 +1,7 @@
 import React from "react";
 import { IAcademic } from "../../../typescript/UserInterfaces";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSchool } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 function Card({
   id,
@@ -15,23 +15,29 @@ function Card({
   return (
     <div
       key={id}
-      className="flex flex-wrap p-4 rounded-lg bg-gray-50 items-start my-2 mb-4"
+      className="flex gap-4 p-4 rounded-lg bg-gray-50 border border-gray-100 hover:bg-gray-100 transition-colors"
     >
-      <div className="md:w-[15%] lg:w-[8%] pl-2 md:pt-3 lg:pl-0">
+      <div className="hidden md:flex items-center justify-center w-12 h-12 rounded-lg bg-white border border-gray-200 flex-shrink-0">
         <FontAwesomeIcon
-          icon={faSchool}
-          className="w-[80px] h-[50px] text-gray-500"
+          icon={faGraduationCap}
+          className="w-6 h-6 text-gray-600"
         />
       </div>
-      <div className="p-2 md:p-4 lg:p-4 md:w-[85%] lg:w-[92%] w-full">
-        <h1 className="text-lg md:text-xl lg:text-2xl font-medium ">
+      <div className="flex-1">
+        <h3 className="text-base md:text-lg font-semibold text-gray-900">
           {branch}
-        </h1>
-        <div className="flex flex-wrap justify-between items-center ">
-          <p className="font-thin my-2 text-sm md:text-xl lg:text-xl">
-            {university}
-          </p>
-          <p className="font-medium text-xs md:text-xl lg:text-xl">{session}</p>
+        </h3>
+        <p className="text-sm text-gray-700 mt-1">{university}</p>
+        <div className="flex flex-wrap items-center gap-3 mt-2 text-xs md:text-sm">
+          <span className="text-gray-600">{session}</span>
+          {grade && (
+            <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded font-medium">
+              Grade: {grade}
+            </span>
+          )}
+          {address && (
+            <span className="text-gray-500">{address}</span>
+          )}
         </div>
       </div>
     </div>

@@ -8,13 +8,17 @@ import Language from './language/Language'
 
 function Resume() {
   return (
-    <div>
-        <About/>
-        <Experience/>
+    <div className="space-y-8">
+      <About/>
+      <Experience/>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <Education/>
         <TechSkills/>
-        <Interest/>
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <Language/>
+        <Interest/>
+      </div>
     </div>
   )
 }

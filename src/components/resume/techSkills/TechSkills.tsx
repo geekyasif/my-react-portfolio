@@ -5,11 +5,11 @@ import SkillTag from "../../SkillTag";
 
 function TechSkills() {
   return (
-    <div className="">
+    <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
       <Heading title="Tech Skills" position="" />
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap gap-2">
         {skills.map((item, i) => (
-          <SkillTag title={item} key={i} bgColor="bg-gray-50 text-xl" />
+          <SkillTag title={item} key={i} bgColor="bg-gray-50" />
         ))}
       </div>
     </div>

@@ -10,14 +10,16 @@ function Education() {
 
   useEffect(() => {
     setAcademics(user?.academics);
-  }, []);
+  }, [user]);
 
   return (
-    <div>
+    <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
       <Heading title="Education" position="" />
-      {academics?.map((data) => (
-        <Card {...data} />
-      ))}
+      <div className="space-y-3">
+        {academics?.map((data) => (
+          <Card key={data.id} {...data} />
+        ))}
+      </div>
     </div>
   );
 }

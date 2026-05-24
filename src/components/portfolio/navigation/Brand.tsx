@@ -8,11 +8,11 @@ function Brand() {
         className="text-xl pb-4 md:pb-0 lg:pb-0 lg:text-2xl md:text-2xl font-bold flex items-center gap-3 transition-all duration-300 hover:opacity-80"
       >
         <img
-          alt="img"
+          alt="profile"
           src="pro.png"
-          className="h-9 w-9 md:h-9 md:w-9 lg:h-10 lg:w-10 rounded-full ring-2 ring-gray-200"
+          className="h-10 w-10 md:h-10 md:w-10 lg:h-12 lg:w-12 rounded-full object-cover ring-2 ring-gray-300"
         />
-        <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+        <span className="text-gray-900 hover:text-gray-700">
           Mohammad Asif
         </span>
       </Link>
